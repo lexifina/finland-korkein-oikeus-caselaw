@@ -1,8 +1,0 @@
----
-source_url: "https://www.finlex.fi/fi/oikeuskaytanto/korkein-oikeus/ennakkopaatokset/1976/II-95"
----
-
-# KKO:1976-II-95
-
-A:n ja B:n välisen sopimuksen mukaan A luovutti liikeyrityksensä laitteineen ja kalusteineen B:lle mm. ehdoin, että B:n A:lta oleva tilisaatava kuitattaisiin kauppahintaa vastaan, kun myyty omaisuus oli siirtynyt B:n hallintaan, mutta hallinnan tuli toistaiseksi jäädä A:lle. Tämä jatkoi liiketoimintaansa entiseen tapaan ja lyhensi tilivelkaansa vieläpä sen jälkeen kun B oli asetettu konkurssiin. Koska A:n ja B:n tarkoituksena ei ollut lopullisesti luovuttaa omaisuutta B:lle vaan ainoastaan käyttää sitä B:n tilisaatavan vakuutena ja kun B ei siten sopimuksen perusteella ollut saanut suoritusta saatavastaan eikä se myöhemminkään ollut kuittaantunut kauppahintaa vastaan, koskei hallintaoikeus myytyyn omaisuuteen ollut siirtynyt B:lle, B:n konkurssipesän tilisaatava vahvistettiin maksettavaksi A:n konkurssipesän varoista.
-MM-NS
