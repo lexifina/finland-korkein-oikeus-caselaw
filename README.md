@@ -3,7 +3,14 @@
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is the case law of the Supreme Court (Korkein oikeus), Finland, which global-law reads at `finland/korkein-oikeus/caselaw/`.
 
 Every decision of the Supreme Court (Korkein oikeus) published on finlex.fi, as a git history: one file per decision, one commit per decision,
-dated the day it was given. 8,332 decisions from 1972-06-22 to 2026-11-07.
+dated the day it was given. 15,198 decisions from 1926-12-31 to 2026-11-07.
+
+Of these, 6,864 (the Supreme Court's precedents of 1926-2004 such as KKO:1931-II-577) have a year but no day on
+Finlex: its page shows the placeholder 1.1.<year>. Each is dated 31 December of its year, the last day of the year it
+was given, so the tools never show it before it existed: `In-force: <year>-12-31`, `Decided: <year>` and an
+`In-force-basis:` trailer saying so (`in_force` and `in_force_basis` in the file's front matter), with `Presented:` (the
+Esittelypäivä) where Finlex gives it. Those before 1970 are committed on 1970-01-01, one second apart, as git dates
+start there; `In-force:` holds the date. List them with `git log --grep='^In-force-basis: year only' --format='%(trailers:key=Decided,valueonly) %an'`.
 
 ## Source and licence
 
